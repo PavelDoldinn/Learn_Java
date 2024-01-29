@@ -6,10 +6,26 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex9();
+        ex10();
 
     }
 
+    public static void ex10() {
+
+        //Напишите программу на Java для перемешивания элементов в списке массивов.
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        integerList.add(5);
+        System.out.println(integerList);
+
+        Collections.shuffle(integerList); // Перемешевает .shuffle
+        System.out.println(integerList);
+
+    }
     public static void ex9() {
 
         /**
@@ -168,7 +184,7 @@ public class ArrayListCollection {
         System.out.println(integerList);
 
     }
-    public static void ex2 () {
+    public static void ex2() {
 
         /**
          * Напишите Java-программу для извлечения элемента (по указанному индексу) из заданного списка массивов.
