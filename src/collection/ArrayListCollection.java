@@ -1,17 +1,49 @@
 package collection;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex7();
+        ex8();
 
     }
 
+    public static void ex8() {
+
+        /**
+         * Напишите программу на Java для сортировки заданного списка массивов.
+         */
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(9);
+        integerList.add(4);
+        integerList.add(8);
+        integerList.add(5);
+        integerList.add(1);
+        integerList.add(0);
+        integerList.add(3);
+        System.out.println(integerList);
+        Collections.sort(integerList);
+        System.out.println(integerList);
+        Collections.reverse(integerList);
+        System.out.println(integerList);
+
+        List<String> listName = new ArrayList<>();
+        listName.add("Pol");
+        listName.add("Ivan");
+        listName.add("Anna");
+        listName.add("Pavel");
+        listName.add("Lena");
+        System.out.println(listName);
+
+        Collections.sort(listName);
+        System.out.println(listName);
+
+        Collections.reverse(listName);
+        System.out.println(listName);
+    }
     public static void ex7() {
 
         /**
