@@ -2,15 +2,47 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex6();
+        ex7();
 
     }
 
+    public static void ex7() {
+
+        /**
+         * Напишите программу на Java для поиска элемента в списке массивов.
+         */
+
+        Scanner scanner = new Scanner(System.in);
+
+        List<String> listName = new ArrayList<>();
+        listName.add("Pavel");
+        listName.add("Ivan");
+        listName.add("Sergei");
+        listName.add("Slava");
+        listName.add("Lena");
+
+        //if (listName.contains("сыв")) {
+        //    System.out.println("Есть такое Имя ! ");
+        //} else {
+        //    System.out.println("Нет такого имени.");
+        //}
+
+        System.out.println("Введите имя которое нужно найти! ");
+        String searchName = scanner.nextLine();
+
+        if (listName.contains(searchName)) {
+            System.out.println("Ваше имя найдено " + searchName);
+        } else {
+            System.out.println("Мы не нашли ваше имя в списке " + searchName);
+        }
+
+    }
     public static void ex6() {
 
         /**
