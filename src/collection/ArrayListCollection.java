@@ -7,10 +7,27 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex4();
+        ex5();
 
     }
 
+    public static void ex5() {
+
+        /**
+         * Напишите Java-программу для обновления определенного элемента массива по заданному элементу.
+         */
+
+        List<String> listName = new ArrayList<>();
+        listName.add("Ivan");
+        listName.add("Pavel");
+        listName.add("Lena");
+        listName.add("Jon");
+        System.out.println(listName);
+
+        listName.set(2, "Vlad");
+        System.out.println(listName);
+
+    }
     public static void ex4() {
 
         /**
@@ -57,7 +74,6 @@ public class ArrayListCollection {
         list.add("шесть");
 
     }
-
     public static void ex1() {
 
         /**
