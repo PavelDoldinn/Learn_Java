@@ -6,10 +6,36 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex8();
+        ex9();
 
     }
 
+    public static void ex9() {
+
+        /**
+         * Напишите программу на Java для копирования одного списка массивов в другой.
+         */
+
+        List<Integer> integerList1 = new ArrayList<>();
+        integerList1.add(1);
+        integerList1.add(2);
+        integerList1.add(3);
+        integerList1.add(4);
+        integerList1.add(5);
+
+        List<Integer> integerList2 = new ArrayList<>(integerList1);
+        System.out.println(integerList2);
+
+        List<Integer> integerList3 = new ArrayList<>();
+
+        for (int i = 0; i < integerList2.size(); i++) {
+            integerList3.add(integerList2.get(i));
+        }
+        System.out.println(integerList3);
+
+        List<Integer> integerList4 = new ArrayList<>(integerList3);
+        System.out.println(integerList4);
+    }
     public static void ex8() {
 
         /**
