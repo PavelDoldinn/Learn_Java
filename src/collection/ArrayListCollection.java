@@ -7,15 +7,36 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex2();
+        ex3();
 
     }
 
+    public static void ex3() {
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        integerList.add(0,5);
+        System.out.println(integerList);
+        integerList.addFirst(6);
+        System.out.println(integerList);
+
+    }
     public static void ex2 () {
 
         /**
-         *
+         * Напишите Java-программу для извлечения элемента (по указанному индексу) из заданного списка массивов.
          */
+
+        List<String> list = new ArrayList<>();
+        list.add("один");
+        list.add("два");
+        list.add("три");
+        list.add("четыре");
+        list.add("пять");
+        list.add("шесть");
 
     }
 
