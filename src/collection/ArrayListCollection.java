@@ -7,10 +7,29 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex5();
+        ex6();
 
     }
 
+    public static void ex6() {
+
+        /**
+         * Напишите программу на Java для удаления третьего элемента из списка массивов.
+         */
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        integerList.add(5);
+        integerList.add(6);
+        System.out.println(integerList);
+
+        integerList.remove(3);
+        System.out.println(integerList);
+
+    }
     public static void ex5() {
 
         /**
