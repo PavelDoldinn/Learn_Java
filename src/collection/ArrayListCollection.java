@@ -6,10 +6,30 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex14();
+        ex15();
 
     }
 
+    public static void ex15() {
+
+        //Напишите Java-программу для клонирования списка массивов в другой список массивов.
+
+        var list1 = new ArrayList<Integer>();
+        list1.add(1);
+        list1.add(2);
+        list1.add(3);
+        list1.add(4);
+        list1.add(5);
+        System.out.println(list1);
+
+
+        List<Integer> cloneList = (ArrayList<Integer>)list1.clone();
+        //List<Integer> cloneList = new ArrayList<>(list1);
+        System.out.println(cloneList);
+
+
+
+    }
     public static void ex14() {
 
         //Напишите программу на Java для объединения двух списков массивов.
