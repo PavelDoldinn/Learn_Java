@@ -6,10 +6,24 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex12();
+        ex13();
 
     }
 
+    public static void ex13() {
+
+        List<String> stringList1 = new ArrayList<>();
+        stringList1.add("Red");
+        stringList1.add("Green");
+        stringList1.add("Pink");
+        stringList1.add("Black");
+        stringList1.add("White");
+        System.out.println(stringList1);
+
+
+        Collections.swap(stringList1, 1, 4);
+        System.out.println(stringList1);
+    }
     public static void ex12() {
 
         //Напишите программу на Java для сравнения двух списков массивов.
