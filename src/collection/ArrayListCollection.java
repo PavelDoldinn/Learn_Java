@@ -6,10 +6,30 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex10();
+        ex11();
 
     }
 
+    public static void ex11() {
+
+        //Напишите программу на Java для извлечения части списка массивов.
+
+        var integerList = new ArrayList<Integer>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        integerList.add(5);
+        integerList.add(6);
+        integerList.add(7);
+        integerList.add(8);
+        System.out.println(integerList);
+
+        List<Integer> sudList = integerList.subList(2, 5);
+        System.out.println(sudList);
+
+
+    }
     public static void ex10() {
 
         //Напишите программу на Java для перемешивания элементов в списке массивов.
