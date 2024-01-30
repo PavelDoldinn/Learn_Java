@@ -6,10 +6,36 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex11();
+        ex12();
 
     }
 
+    public static void ex12() {
+
+        //Напишите программу на Java для сравнения двух списков массивов.
+
+        List<String> stringList1 = new ArrayList<>();
+        stringList1.add("Red");
+        stringList1.add("Green");
+        stringList1.add("Pink");
+        stringList1.add("Black");
+        stringList1.add("White");
+
+        List<String> stringList2 = new ArrayList<>();
+        stringList2.add("Red");
+        stringList2.add("Green");
+        stringList2.add("Pink");
+        stringList2.add("Orange");
+        stringList2.add("White");
+
+        List<String> stringList3 = new ArrayList<>();
+
+        for (String s : stringList1){
+            stringList3.add(stringList2.contains(s) ? "Yes" : "No");
+        }
+        System.out.println(stringList3);
+
+    }
     public static void ex11() {
 
         //Напишите программу на Java для извлечения части списка массивов.
