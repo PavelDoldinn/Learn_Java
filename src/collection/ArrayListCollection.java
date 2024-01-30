@@ -6,10 +6,30 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex13();
+        ex14();
 
     }
 
+    public static void ex14() {
+
+        //Напишите программу на Java для объединения двух списков массивов.
+
+        List<Integer> integerList1 = new ArrayList<>();
+        integerList1.add(1);
+        integerList1.add(2);
+        integerList1.add(3);
+
+        List<Integer> integerList2 = new ArrayList<>();
+        integerList2.add(4);
+        integerList2.add(5);
+        integerList2.add(6);
+
+        List<Integer> integerList3 = new ArrayList<>();
+        integerList3.addAll(integerList1);
+        integerList3.addAll(integerList2);
+        System.out.println(integerList3);
+
+    }
     public static void ex13() {
 
         List<String> stringList1 = new ArrayList<>();
