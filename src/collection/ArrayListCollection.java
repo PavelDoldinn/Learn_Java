@@ -6,11 +6,20 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex18();
+        ex19();
 
     }
 
 
+    public static void ex19() {
+
+        //Напишите программу на Java, чтобы увеличить размер списка массивов
+
+        List<Integer> integerList = new ArrayList<>(3);
+
+        ((ArrayList<Integer>) integerList).ensureCapacity(6);
+
+    }
     public static void ex18() {
 
         // Напишите программу на Java, чтобы урезать емкость списка массивов текущим размером списка.
