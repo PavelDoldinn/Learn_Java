@@ -6,10 +6,25 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex20();
+        ex21();
 
     }
+    public static void ex21() {
 
+        //Напишите Java-программу для печати всех элементов ArrayList, используя расположение элементов
+
+        List<String> integerList = new ArrayList<>();
+        integerList.add("Pavel");
+        integerList.add("Ivan");
+        integerList.add("Alex");
+        integerList.add("Pol");
+        integerList.add("Jon");
+        System.out.println(integerList);
+
+        for (int i = 0; i < integerList.size(); i++) {
+            System.out.println(integerList.get(i));
+        }
+    }
     public static void ex20() {
 
         //Напишите программу на Java, чтобы заменить второй элемент ArrayList указанным элементом.
