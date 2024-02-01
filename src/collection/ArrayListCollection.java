@@ -6,11 +6,24 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex17();
+        ex18();
 
     }
 
 
+    public static void ex18() {
+
+        // Напишите программу на Java, чтобы урезать емкость списка массивов текущим размером списка.
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        //integerList.trimToSize();
+        ((ArrayList<Integer>) integerList).trimToSize();
+        System.out.println(integerList);
+    }
     public static void ex17() {
 
         //Напишите Java-программу для проверки того, что список массивов пуст или нет.
