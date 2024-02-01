@@ -7,11 +7,28 @@ public class LinkedListCollection {
 
     public static void main(String[] args) {
 
-        ex1();
+        ex2();
 
     }
 
+    public static void ex2() {
 
+        //Напишите Java-программу для перебора всех элементов в связанном списке
+
+        List<String> stringList = new LinkedList<>();
+        stringList.add("Pavel");
+        stringList.add("Vasa");
+        stringList.add("Peta");
+        stringList.add("Lena");
+        stringList.add("Jon");
+        System.out.println(stringList);
+
+        for (String s : stringList) {
+            System.out.println(s);
+        }
+
+
+    }
     public static void ex1() {
 
         //Напишите программу на Java, чтобы добавить указанный элемент в конец связанного списка
