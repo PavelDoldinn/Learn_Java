@@ -6,11 +6,29 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex16();
+        ex17();
 
     }
 
 
+    public static void ex17() {
+
+        //Напишите Java-программу для проверки того, что список массивов пуст или нет.
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        System.out.println(integerList);
+
+        System.out.println(integerList.isEmpty());
+
+        integerList.removeAll(integerList);
+        System.out.println(integerList);
+        System.out.println(integerList.isEmpty());
+
+    }
     public static void ex16() {
 
         // Напишите программу на Java, чтобы очистить список массивов.
