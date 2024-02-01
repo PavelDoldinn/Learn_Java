@@ -6,10 +6,28 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex15();
+        ex16();
 
     }
 
+
+    public static void ex16() {
+
+        // Напишите программу на Java, чтобы очистить список массивов.
+
+        List<Integer> integerList = new ArrayList<>();
+        integerList.add(1);
+        integerList.add(2);
+        integerList.add(3);
+        integerList.add(4);
+        integerList.add(5);
+        System.out.println(integerList);
+
+        integerList.removeAll(integerList);
+        System.out.println(integerList);
+
+
+    }
     public static void ex15() {
 
         //Напишите Java-программу для клонирования списка массивов в другой список массивов.
