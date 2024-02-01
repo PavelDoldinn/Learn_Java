@@ -6,11 +6,30 @@ public class ArrayListCollection {
 
     public static void main(String[] args) {
 
-        ex19();
+        ex20();
 
     }
 
+    public static void ex20() {
 
+        //Напишите программу на Java, чтобы заменить второй элемент ArrayList указанным элементом.
+
+        List<String> listName = new ArrayList<>();
+        listName.add("Pavel");
+        listName.add("Ivan");
+        listName.add("Pol");
+        listName.add("Sven");
+        System.out.println(listName);
+
+        String name = "Acx";
+
+        listName.set(1, name);
+
+        for (String s : listName) {
+            System.out.println(s);
+        }
+
+    }
     public static void ex19() {
 
         //Напишите программу на Java, чтобы увеличить размер списка массивов
