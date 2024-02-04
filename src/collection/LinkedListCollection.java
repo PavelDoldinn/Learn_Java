@@ -7,10 +7,26 @@ public class LinkedListCollection {
 
     public static void main(String[] args) {
 
-        ex3();
+        ex4();
 
     }
 
+    public static void ex4() {
+
+        //Напишите Java-программу для итерации связанного списка в обратном порядке.
+        List<String> stringList = new LinkedList<>();
+        stringList.add("Alisa");
+        stringList.add("Riga");
+        stringList.add("Peta");
+        stringList.add("Roza");
+        stringList.add("Bolt");
+        System.out.println(stringList);
+
+        for (int i = stringList.size()-1; i > stringList.size() ; i--) {
+            System.out.println(stringList.get(i));
+        }
+
+    }
     public static void ex3() {
 
         //Напишите Java-программу для итерации по всем элементам в связанном списке, начиная с указанной позиции.
