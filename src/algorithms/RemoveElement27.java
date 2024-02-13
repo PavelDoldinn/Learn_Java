@@ -10,12 +10,13 @@ public class RemoveElement27 {
         // Есть массив nums и число k, удалите из масива числа равные k
         // Вернуть массив без k
 
-        int[] nums = new int[]{3, 2, 3, 1, 3, 2};
+        int[] nums = new int[]{3, 2, 3, 1, 3};
         int target = 3;
 
         System.out.println(removeElement1(nums, target));
 
     }
+
     public static List removeElement1(int[] nums, int target) {
 
         List<Integer> integerList = new ArrayList<>();

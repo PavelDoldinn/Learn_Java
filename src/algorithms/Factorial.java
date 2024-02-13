@@ -4,9 +4,10 @@ public class Factorial {
 
     public static void main(String[] args) {
 
-        System.out.println(getFactorial(15));
+        System.out.println(getFactorial(5));
 
     }
+
     public static long getFactorial(int n) {
 
         if (n == 0 || n == 1) {
@@ -18,7 +19,7 @@ public class Factorial {
             return factorial(n);
         }
     }
-    public static long factorial(int n) {
+    private static long factorial(int n) {
 
         long fct = 1;
         for (int i = 1; i <= n ; i++) {
