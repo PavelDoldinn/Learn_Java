@@ -21,7 +21,7 @@ public class CountRemoveElement {
     public static List countRemoveElement(int[] nums, int target){
 
         if (nums.length == 0) {
-            throw new ArrayIndexOutOfBoundsException("Null");
+            throw new NullPointerException("Массив пустой");
         } else {
             return removeAndCount(nums, target);
         }
