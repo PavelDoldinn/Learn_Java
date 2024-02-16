@@ -12,6 +12,7 @@ public class SortingBbySelection {
         sortingBbySelection(array);
     }
 
+
     public static void sortingBbySelection (int[] array) {
 
         if (array.length == 0) {
